@@ -6014,7 +6014,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "5.1K"
 			(at 80.01 140.7738 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8968,7 +8968,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "5.1K"
 			(at 80.01 133.1538 0)
 			(show_name no)
 			(do_not_autoplace no)

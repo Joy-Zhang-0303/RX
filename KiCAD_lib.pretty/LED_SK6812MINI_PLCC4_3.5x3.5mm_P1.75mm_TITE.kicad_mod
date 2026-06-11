@@ -1,0 +1,338 @@
+(footprint "LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TITE"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "3.5mm x 3.5mm PLCC4 Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf")
+	(tags "LED RGB NeoPixel Mini PLCC-4 3535")
+	(property "Reference" "REF**"
+		(at 3.5 0 90)
+		(layer "F.SilkS")
+		(uuid "8fa3bd98-bef5-4b7a-83c8-314f0d149188")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm_TITE"
+		(at 0 3.25 0)
+		(layer "F.Fab")
+		(uuid "c1738815-b4df-4b03-8f13-7d6e46b336a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc2787ba-6cf0-4a26-8b47-1f104eaf1816")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a6eee4f-bfba-4bad-8d16-d6e1c806f328")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.7 -1.4)
+		(end -2.7 1.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4d34dc24-fa58-4e59-b10e-0218e0b41611")
+	)
+	(fp_line
+		(start -2.7 -1.4)
+		(end -1.9 -1.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6508bfa9-a254-4281-8fa0-345e018570bf")
+	)
+	(fp_line
+		(start -2.7 1.4)
+		(end -1.9 1.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "76a447f4-1b56-4258-8b0b-f6dd5cce9ff4")
+	)
+	(fp_line
+		(start -1.9 -1.9)
+		(end 1.9 -1.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dcd46a9f-40d9-4660-b10b-c78387f53b18")
+	)
+	(fp_line
+		(start -1.9 -1.4)
+		(end -1.9 -1.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e9418eaa-19bb-4dc4-ae5c-bc1d67f3586e")
+	)
+	(fp_line
+		(start -1.9 1.9)
+		(end -1.9 1.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "339053ec-726b-4036-95d1-be920967aa46")
+	)
+	(fp_line
+		(start -1.9 1.9)
+		(end 1.9 1.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "918a60c2-277d-4c09-baa2-3f5ce4e87728")
+	)
+	(fp_line
+		(start 1.9 -1.4)
+		(end 1.9 -1.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6dd24a09-3720-4de2-a82b-9b8f1672052a")
+	)
+	(fp_line
+		(start 2.45 1.4)
+		(end 1.95 1.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a2d206c8-e313-4df0-bd7d-ec0d45d2100a")
+	)
+	(fp_line
+		(start 2.7 -1.4)
+		(end 1.9 -1.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bcdad7c3-a1ef-4521-a1f2-a87f50f47ae7")
+	)
+	(fp_line
+		(start 2.7 1.4)
+		(end 2.45 1.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7195225b-05cd-4ddd-a8cf-5c907a45f255")
+	)
+	(fp_line
+		(start 2.7 1.4)
+		(end 2.7 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee62bed6-364b-414b-8f97-3b6def7e2884")
+	)
+	(fp_line
+		(start -2.7 -1.9)
+		(end -2.7 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5bddb0a5-6b83-4c80-986f-db3f24c6c05b")
+	)
+	(fp_line
+		(start -2.7 1.9)
+		(end 2.7 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "db2c3edb-4080-4d28-bf52-b17d94506ad7")
+	)
+	(fp_line
+		(start 2.7 -1.9)
+		(end -2.7 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7cfca764-abfc-490d-b425-5c38350e8187")
+	)
+	(fp_line
+		(start 2.7 1.9)
+		(end 2.7 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9c7693e3-6b8a-43da-87cb-4b64b8d15746")
+	)
+	(fp_line
+		(start -1.75 -1.75)
+		(end -1.75 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47107145-de3b-4857-ad9d-6eb6f831fc43")
+	)
+	(fp_line
+		(start -1.75 1.75)
+		(end 1.75 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b237f2f-30c2-44c6-94fd-12d596529937")
+	)
+	(fp_line
+		(start 1.75 -1.75)
+		(end -1.75 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ded44eb9-9c50-4326-b59f-93563375645c")
+	)
+	(fp_line
+		(start 1.75 0.75)
+		(end 0.75 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb0e9a7d-437d-450b-ac79-7cf0c5b97ede")
+	)
+	(fp_line
+		(start 1.75 1.75)
+		(end 1.75 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a999b343-d43d-47cf-b477-7482bd5eac10")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f7093418-cbdf-4c90-b2ba-52ded67aa7c5")
+	)
+	(fp_text user "1"
+		(at -3.3 -0.875 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0bb765d4-4234-4d65-b3a6-9c16e2fe9ce3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "55b82e99-529e-4276-84e4-5edd450617c5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.75 -0.875)
+		(size 1.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e72bd6c5-f978-40d2-93e1-6681d105436e")
+	)
+	(pad "2" smd rect
+		(at -1.75 0.875)
+		(size 1.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fe080340-c3be-4412-9708-3ce5785d5126")
+	)
+	(pad "3" smd rect
+		(at 1.75 0.875)
+		(size 1.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5cdf2db8-5e30-416d-abbd-8a70dbb49fd5")
+	)
+	(pad "4" smd rect
+		(at 1.75 -0.875)
+		(size 1.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "50360d7e-0a13-424e-bdc1-4f220e170f07")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
